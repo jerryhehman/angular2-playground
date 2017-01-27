@@ -1,0 +1,33 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!-- Hamburger Menu icon -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Angular 2 Playground</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Component Scope<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a routerLink="/parent">Local Service versus Singleton Service</a></li>
+            <li><a routerLink="/generations">Generations</a></li>
+          </ul>
+        </li>
+        <li><a routerLink="/forms">Forms</a></li>
+        <li><a routerLink="/observables">Observables</a></li>
+      </ul>
+      <!--
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+      -->
+    </div>
+  </div>
+</nav>
